@@ -171,6 +171,17 @@ body {
   height: 90vh;
 }
 
+.homeContainer::after {
+  content: "";
+  width: 100%;
+  height: 10vh;
+  background: black;
+  position: absolute;
+  box-shadow: 0 15px 15px 0px #919191;
+  bottom: 50px;
+  border-radius: 48%;
+}
+
 .homeIntro {
   display: flex;
   flex-direction: column;
@@ -198,6 +209,10 @@ body {
   cursor: pointer;
   padding: 1rem 1.8rem;
   font-size: 1rem;
+}
+
+.aboutContainer {
+  margin-top: 5rem;
 }
 
 .aboutHeader {
