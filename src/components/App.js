@@ -3,6 +3,7 @@ import React from 'react'
 import About from './About'
 import Home from './Home'
 import Navbar from './Navbar'
+import Projects from './Projects'
 import Skills from './Skills'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <div className="container">
         <About />
         <Skills />
+        <Projects />
       </div>
       </>
   )
