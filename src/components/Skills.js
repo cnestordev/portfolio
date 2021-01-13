@@ -31,7 +31,7 @@ function Skills() {
     })
 
     return (
-        <section className="skillsContainer">
+        <section className="skillsContainer" id="skills">
             <h3 className="skillsHeader">Skills</h3>
             <div className="skillSetContainer">
                 {skillArr}

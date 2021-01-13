@@ -31,7 +31,7 @@ function Projects() {
     })
 
     return (
-        <section className="projectsContainer">
+        <section className="projectsContainer" id="projects">
             <h3 className="projectsHeader">Projects</h3>
             <div className="projectBoxContainer">
                 {projectsArr}

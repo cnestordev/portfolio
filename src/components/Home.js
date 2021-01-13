@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
     return (
-        <section className="homeContainer">
+        <section className="homeContainer" id="home">
             <div className="homeIntro">
                 <h1>Hello!  I'm Nestor</h1>
                 <h3>A Web Developer</h3>
