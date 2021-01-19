@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 function Skills() {
 
-    const [skillSet, setSkillSet] = useState([
+    const [skillSet] = useState([
         {
             header: 'Frontend',
             skills: ['HTML', 'CSS', 'Javascript', 'React', 'Bootstrap', 'Styled-Components', 'EJS']
@@ -32,7 +32,7 @@ function Skills() {
 
     return (
         <section className="skillsContainer" id="skills">
-            <h3 className="skillsHeader">Skills</h3>
+            <h3 className="skillsHeader subheader">Skills</h3>
             <div className="skillSetContainer">
                 {skillArr}
             </div>

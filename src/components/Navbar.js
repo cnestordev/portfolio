@@ -4,8 +4,8 @@ function Navbar() {
     return (
         <header className="navbarHeader">
             <nav className="navbarContainer">
-                <div>
-                    <img alt="my logo" className="logoImg" src="https://i.imgur.com/JxZUJOK.png" />
+                <div class="logoContainer">
+                    <p class="LogoLetters">NC</p>
                 </div>
                 <ul>
                     <li><a href="#home">Home</a></li>

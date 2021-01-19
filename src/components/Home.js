@@ -5,7 +5,7 @@ function Home() {
         <section className="homeContainer" id="home">
             <div className="homeIntro">
                 <h1>Hello!  I'm Nestor</h1>
-                <h3>A Web Developer</h3>
+                <h3 className="introSubheader">A Full-Stack Web Developer</h3>
                 <button className="homeBtn">Learn More</button>
             </div>
         </section>

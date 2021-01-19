@@ -111,12 +111,16 @@ ul {
 
 /* END css reset--------------------------------------------- */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Spartan";
 }
 
-* {
-  font-family: "Spartan";
+section {
+  padding: 2rem 0;
 }
 
 .navbarHeader {
@@ -128,6 +132,7 @@ body {
   background: #f2f2f2;
   z-index: 3;
   position: fixed;
+  padding: 0.65rem 0;
 }
 
 .navbarContainer {
@@ -136,10 +141,29 @@ body {
   justify-content: space-between;
   position: fixed;
   width: 80%;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
 }
 
-.logoImg {
-  width: 2.5rem;
+.logoContainer {
+  border: 2px solid #000;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: inline-block;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.LogoLetters {
+  font-family: "Sen";
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .navbarContainer ul {
@@ -178,13 +202,14 @@ body {
 
 .homeContainer::after {
   content: "";
+  display: block;
   width: 100%;
   height: 10vh;
   background: black;
   position: absolute;
   box-shadow: 0 15px 15px 0px #919191;
   bottom: 50px;
-  border-radius: 48%;
+  border-radius: 95%;
 }
 
 .homeIntro {
@@ -200,12 +225,25 @@ body {
   margin-bottom: 1.7rem;
 }
 
-.homeIntro h3 {
+.introSubheader {
   font-size: 1.5rem;
   color: #202020;
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 500;
+  position: relative;
+  z-index: 2;
+}
+
+.introSubheader::after {
+  content: "";
+  height: 3vh;
+  width: 106%;
+  background: #60e37c;
+  position: absolute;
+  z-index: -1;
+  left: -3%;
+  transform: rotate3d(11, -3, 1, 43deg);
 }
 
 .homeIntro .homeBtn {
@@ -224,14 +262,24 @@ body {
   margin-top: 5rem;
 }
 
-.aboutHeader,
-.skillsHeader,
-.projectsHeader {
+.subheader {
   color: #202020;
   font-size: 2.5rem;
   font-weight: 500;
   text-align: center;
+  letter-spacing: 1px;
   margin: 3.5rem 0;
+}
+
+.subheader::after {
+  content: "";
+  height: 4vh;
+  width: 16%;
+  background: #60e37c;
+  position: absolute;
+  z-index: -1;
+  left: 42%;
+  transform: rotate3d(11, -3, 1, 43deg);
 }
 
 .aboutText {
