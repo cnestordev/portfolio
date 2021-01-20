@@ -6,7 +6,7 @@ function Home() {
             <div className="homeIntro">
                 <h1>Hello!  I'm Nestor</h1>
                 <h3 className="introSubheader">A Full-Stack Web Developer</h3>
-                <button className="homeBtn">Learn More</button>
+                <button className="homeBtn">View Resume</button>
             </div>
         </section>
     )
