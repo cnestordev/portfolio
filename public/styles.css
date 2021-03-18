@@ -414,10 +414,10 @@ section {
 }
 
 .projectBox {
-  border: 1px solid rgb(102, 101, 101);
+  border: 1px solid rgb(219, 219, 219);
   border-radius: 8px;
   margin: 0;
-  padding: 1rem;
+  padding: 1%;
   text-align: center;
 }
 
@@ -459,7 +459,7 @@ section {
 }
 
 .left .project-subheader {
-  margin-top: 1%;
+  margin: 2% auto;
 }
 
 .fa-info-circle {
@@ -536,6 +536,7 @@ section {
   -webkit-animation: AnimationName 12s ease infinite;
   -moz-animation: AnimationName 12s ease infinite;
   animation: AnimationName 12s ease infinite;
+  margin: 2% 0;
 }
 
 .project-name::after {
@@ -572,7 +573,7 @@ section {
 }
 
 .project-cta {
-  text-align: center;
+  text-align: right;
 }
 
 .project-btn {
@@ -592,6 +593,12 @@ section {
 .project-btn:hover {
   background: #000;
   transition: 300ms;
+}
+
+.project-btn.sm {
+  width: 25%;
+  margin: 1% 2%;
+  font-size: 0.9rem;
 }
 
 .github {
@@ -618,7 +625,7 @@ section {
 .projects-other {
   font-size: 2.2rem;
   font-weight: 500;
-  background: -webkit-linear-gradient(rgb(119, 0, 255), rgb(255, 0, 200));
+  background: -webkit-linear-gradient(#3cd9d9, #1de848);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   flex-basis: 100%;

@@ -31,6 +31,12 @@ function Projects() {
           className="projectImg"
           src={project.photoUrl}
         />
+        <div>
+          <button className="project-btn sm">Visit</button>
+          <button className="project-btn sm">
+            <i className="fab fa-github"></i>
+          </button>
+        </div>
       </div>
     )
   })
@@ -96,7 +102,7 @@ function Projects() {
               onClick={() => handleOpen('github')}
               className="project-btn github"
             >
-              <i className="fab fa-github"></i>{' '}
+              <i className="fab fa-github"></i>
               <i className="fas fa-external-link-alt"></i>
             </button>
           </div>
