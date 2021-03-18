@@ -7,33 +7,52 @@ function Projects() {
     {
       name: 'Budget Sharing',
       description: 'track of expenses shared by roommates',
-      photoUrl: 'https://picsum.photos/200',
+      photoUrl: './accounting.gif',
+      url: 'https://ncervapp.herokuapp.com/',
+      github: 'https://github.com/cnestordev/accounting-app',
     },
     {
       name: 'Reddit Posts',
       description: 'View Reddit posts from any domain',
-      photoUrl: 'https://picsum.photos/200',
+      photoUrl: './reddit.gif',
+      url: 'https://reddit-generator.herokuapp.com/',
+      github: 'https://github.com/cnestordev/reddit-generator',
     },
     {
       name: 'Avatar Inputs',
-      description: 'Replaces radio inputs with icons',
-      photoUrl: 'https://picsum.photos/300',
+      description: 'Replaces radio buttons with avatar icons',
+      photoUrl: './avatar.gif',
+      url: 'https://avatar-input.herokuapp.com/',
+      github: 'https://github.com/cnestordev/avatarInputs',
     },
   ])
 
+  const handleOpen = site => {
+    window.open(site)
+  }
+
   const projectsArr = projectsSet.map(project => {
     return (
-      <div className="projectBox">
+      <div className="projectBox" style={{ width: '25%' }}>
         <h3>{project.name}</h3>
         <p>{project.description}</p>
         <img
           alt="thumbnail of the project"
           className="projectImg"
           src={project.photoUrl}
+          style={{ width: '100%' }}
         />
         <div>
-          <button className="project-btn sm">Visit</button>
-          <button className="project-btn sm">
+          <button
+            onClick={() => handleOpen(project.url)}
+            className="project-btn sm"
+          >
+            Visit
+          </button>
+          <button
+            onClick={() => handleOpen(project.github)}
+            className="project-btn sm"
+          >
             <i className="fab fa-github"></i>
           </button>
         </div>
@@ -43,14 +62,6 @@ function Projects() {
 
   const borderStyle = {
     borderRadius: '10px',
-  }
-
-  const handleOpen = site => {
-    if (site === 'project') {
-      window.open('http://threaddit-app.herokuapp.com/')
-    } else {
-      window.open('https://github.com/cnestordev/PostProject')
-    }
   }
 
   return (
@@ -93,13 +104,15 @@ function Projects() {
           </div>
           <div className="project-cta">
             <button
-              onClick={() => handleOpen('project')}
+              onClick={() => handleOpen('http://threaddit-app.herokuapp.com/')}
               className="project-btn"
             >
               Visit Website <i class="fas fa-external-link-alt"></i>
             </button>
             <button
-              onClick={() => handleOpen('github')}
+              onClick={() =>
+                handleOpen('https://github.com/cnestordev/PostProject')
+              }
               className="project-btn github"
             >
               <i className="fab fa-github"></i>
