@@ -129,7 +129,7 @@ html {
 }
 
 body {
-  font-family: "Spartan";
+  font-family: 'Spartan';
 }
 
 section {
@@ -179,7 +179,7 @@ section {
 
 .LogoLetters {
   color: inherit;
-  font-family: "Sen";
+  font-family: 'Sen';
   padding: 0;
   margin: 0;
   position: absolute;
@@ -252,14 +252,15 @@ section {
 }
 
 .introSubheader::after {
-  content: "";
+  content: '';
   height: 4vh;
   width: 106%;
   background: #393636;
   position: absolute;
   z-index: -1;
   left: -3%;
-  transform: rotate3d(11, -3, 1, 43deg);
+  top: -5%;
+  transform: rotate3d(11, -3, 1, 45deg);
 }
 
 .homeIntro .homeBtn {
@@ -271,6 +272,7 @@ section {
   padding: 1rem 1.8rem;
   font-size: 1rem;
   transition: 200ms;
+  text-decoration: none;
 }
 
 .homeBtn:hover {
@@ -295,10 +297,15 @@ section {
 }
 
 .subheader::after {
-  content: "";
+  content: '';
   height: 4vh;
   width: 16%;
-  background: var(--green);
+  background: linear-gradient(266deg, #3cd9da, #1de848);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 6s ease infinite;
+  -moz-animation: AnimationName 6s ease infinite;
+  animation: AnimationName 6s ease infinite;
   position: absolute;
   z-index: -1;
   left: 42%;
@@ -317,6 +324,40 @@ section {
 
 .iconContainer i {
   margin: 2rem;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* ---------skills component------------------------------------------------------------ */
@@ -362,23 +403,26 @@ section {
 /* Projects Component ------------------------------------------ */
 
 .projectsContainer {
-  height: 50vh;
+  position: relative;
 }
 
 .projectBoxContainer {
   display: flex;
   justify-content: space-between;
+  margin-top: 5%;
+  flex-wrap: wrap;
 }
 
 .projectBox {
-  background: purple;
+  border: 1px solid rgb(102, 101, 101);
+  border-radius: 8px;
   margin: 0;
   padding: 1rem;
   text-align: center;
 }
 
 .projectBox h3 {
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin-bottom: 0.5rem;
 }
 
@@ -387,5 +431,196 @@ section {
 }
 
 .projectImg {
-  width: 250px;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+
+.thumbs {
+  text-align: right;
+  margin-right: 7%;
+  display: none;
+}
+
+.left {
+  width: 35%;
+}
+
+.left .project-subheader {
+  margin-top: 1%;
+}
+
+.fa-info-circle {
+  color: #909090;
+}
+
+.project-icons {
+  background: #1b1b1b;
+  border-radius: 7px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  z-index: -1;
+  top: 2%;
+  left: -4%;
+  padding: 1% 3%;
+  width: 95%;
+}
+
+.fa-js-square {
+  color: #fddf17;
+}
+
+.fa-react {
+  color: #61dafb;
+}
+
+.node-icon {
+  width: 54%;
+}
+
+.mongo-icon {
+  width: 58%;
+  color: red;
+}
+
+.fa-database {
+  color: #3e9737;
+}
+
+.left .project-description {
+  color: #909090;
+  display: inline;
+  margin-left: 2%;
+}
+
+.icon-container {
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  margin: 5% 0.5%;
+}
+
+.icon-container p {
+  font-size: 0.8em;
+  margin-top: 5%;
+  color: rgb(119, 119, 119);
+}
+
+.icon-container .fab,
+.icon-container .fas {
+  font-size: 2.5rem;
+  display: inline;
+}
+
+.project-name {
+  font-size: 4rem;
+  font-weight: 700;
+  background: linear-gradient(23deg, #00ff95, #0066ff, #ff00ff);
+  background-size: 400% 400%;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: AnimationName 12s ease infinite;
+  -moz-animation: AnimationName 12s ease infinite;
+  animation: AnimationName 12s ease infinite;
+}
+
+.project-name::after {
+  content: '';
+  display: block;
+  width: 95%;
+  height: 5vh;
+  background: black;
+  position: absolute;
+  top: 15%;
+  z-index: -1;
+  left: 0%;
+  transform: rotate3d(11, -3, 1, 45deg);
+}
+
+.project-about {
+  color: #272727;
+  background: #e8e8e8;
+  border-radius: 8px;
+  padding: 4%;
+}
+
+.project-about h3 {
+  color: inherit;
+  font-size: 1.5rem;
+  margin: 2% auto;
+  font-weight: 500;
+}
+
+.project-about p {
+  line-height: 1.5;
+  color: inherit;
+  padding: 1% 0 6%;
+}
+
+.project-cta {
+  text-align: center;
+}
+
+.project-btn {
+  border: 1px solid #313131;
+  background: #313131;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  padding: 2%;
+  font-size: 1.2rem;
+  width: 50%;
+  transition: 300ms;
+  text-decoration: none;
+  margin: 3% auto;
+}
+
+.project-btn:hover {
+  background: #000;
+  transition: 300ms;
+}
+
+.github {
+  width: 20%;
+  margin-left: 5%;
+}
+
+.fa-external-link-alt {
+  margin-left: 2%;
+  font-size: 1rem;
+  color: rgb(119, 119, 119);
+}
+
+.right {
+  width: 70%;
+}
+
+.carousel:first-child {
+  width: 75%;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 3px #989898;
+}
+
+.projects-other {
+  font-size: 2.2rem;
+  font-weight: 500;
+  background: -webkit-linear-gradient(rgb(119, 0, 255), rgb(255, 0, 200));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  flex-basis: 100%;
+  padding: 2% 0;
 }
