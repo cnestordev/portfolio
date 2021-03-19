@@ -578,9 +578,9 @@ section {
 
 .project-btn {
   border: 1px solid #313131;
-  background: #313131;
-  border-radius: 5px;
-  color: #fff;
+  background: transparent;
+  border-radius: 4px;
+  color: #313131;
   cursor: pointer;
   padding: 2%;
   font-size: 1.2rem;
@@ -592,6 +592,7 @@ section {
 
 .project-btn:hover {
   background: #000;
+  color: #fff;
   transition: 300ms;
 }
 
