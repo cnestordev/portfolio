@@ -8,6 +8,9 @@ function About() {
         <h2 className="aboutHeader subheader">
           About <span className="gradientText">Me</span>
         </h2>
+        <h4 className="contact-blob">
+          <i class="far fa-envelope"></i> nestor@nestordev.com
+        </h4>
         <div className="aboutFlex">
           <div className="about-left">
             <p className="aboutText">

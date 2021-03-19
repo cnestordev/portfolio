@@ -293,12 +293,31 @@ section {
   font-size: 3.5rem;
   font-weight: 700;
   text-align: center;
-  margin: 3.5rem 0;
+  margin: 2.5rem 0;
+  margin-bottom: 0.5rem;
 }
 
 .aboutText {
   font-size: 1.3rem;
   line-height: 2;
+  color: var(--black);
+}
+
+.contact-blob {
+  background: #efefef;
+  color: var(--black);
+  border-radius: 5px;
+  font-size: 1.1rem;
+  width: max-content;
+  margin: 0 auto 2%;
+  text-align: center;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+}
+
+.fa-envelope {
+  margin-right: 1.5%;
 }
 
 .aboutFlex {
