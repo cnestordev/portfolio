@@ -2,7 +2,7 @@
 
 :root {
   --green: #54e08a;
-  --black: #2d2d2d;
+  --black: #363636;
   --gradientColor: rgb(60, 218, 170);
   --gradient: linear-gradient(
     16deg,
@@ -289,18 +289,17 @@ section {
 
 .subheader {
   color: var(--black);
-  font-size: 2.5rem;
-  font-weight: 500;
+  font-size: 3.5rem;
+  font-weight: 700;
   text-align: center;
-  letter-spacing: 1px;
   margin: 3.5rem 0;
 }
 
-.subheader::after {
+/* .subheader::after {
   content: '';
   height: 4vh;
   width: 16%;
-  background: linear-gradient(266deg, #3cd9da, #1de848);
+  background: black;
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 6s ease infinite;
@@ -310,7 +309,7 @@ section {
   z-index: -1;
   left: 42%;
   transform: rotate3d(11, -3, 1, 43deg);
-}
+} */
 
 .aboutText {
   font-size: 1.3rem;
@@ -370,7 +369,7 @@ section {
 }
 
 .skillBox {
-  border: 1px solid #bababa;
+  border: 1px solid #e6e6e6;
   border-radius: 5px;
   display: inline-block;
   background: white;
@@ -449,9 +448,8 @@ section {
 }
 
 .thumbs {
-  text-align: right;
-  margin-right: 7%;
-  display: none;
+  text-align: center;
+  margin-left: 25%;
 }
 
 .left {
@@ -554,9 +552,10 @@ section {
 
 .project-about {
   color: #272727;
-  background: #e8e8e8;
+  background: #eeeded;
   border-radius: 8px;
   padding: 4%;
+  position: relative;
 }
 
 .project-about h3 {
@@ -578,9 +577,9 @@ section {
 
 .project-btn {
   border: 1px solid #313131;
-  background: #313131;
-  border-radius: 5px;
-  color: #fff;
+  background: transparent;
+  border-radius: 4px;
+  color: #313131;
   cursor: pointer;
   padding: 2%;
   font-size: 1.2rem;
@@ -592,6 +591,7 @@ section {
 
 .project-btn:hover {
   background: #000;
+  color: #fff;
   transition: 300ms;
 }
 

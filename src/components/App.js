@@ -8,15 +8,13 @@ import Skills from './Skills'
 
 function App() {
   return (
-      <>
+    <>
       <Navbar />
       <Home />
-      <div className="container">
-        <Skills />
-        <Projects />
-        <About />
-      </div>
-      </>
+      <Skills />
+      <Projects />
+      <About />
+    </>
   )
 }
 
