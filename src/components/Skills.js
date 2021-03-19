@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import { Container } from '../styles'
+import SkillBox from './SkillBox'
 
 function Skills() {
   const [skillSet] = useState([
@@ -27,18 +28,15 @@ function Skills() {
   ])
 
   const skillArr = skillSet.map(skill => {
-    return (
-      <div className="skillBox">
-        <h4>{skill.header}</h4>
-        {skill.skills.map(sk => {
-          return <p>{sk}</p>
-        })}
-      </div>
-    )
+    return <SkillBox skill={skill} />
   })
 
   return (
-    <section className="skillsContainer" id="skills">
+    <section
+      style={{ background: 'ghostwhite' }}
+      className="skillsContainer"
+      id="skills"
+    >
       <Container>
         <h3 className="skillsHeader subheader">Skills</h3>
         <div className="skillSetContainer">{skillArr}</div>
