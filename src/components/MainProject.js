@@ -14,8 +14,7 @@ const MainProject = ({ handleOpen }) => {
         <div className="project-subheader">
           <i className="fas fa-info-circle" />
           <p className="project-description">
-            MERN application for creating and sharing interesting things (Feb
-            2021 - Mar 2021)
+            A website for posting and sharing interesting things.
           </p>
         </div>
         <div className="project-icons">

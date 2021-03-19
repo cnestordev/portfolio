@@ -458,6 +458,10 @@ section {
   color: #2c2c2c;
 }
 
+.border {
+  position: absolute;
+}
+
 /* Projects Component ------------------------------------------ */
 
 .projectsContainer {
@@ -558,7 +562,7 @@ section {
 }
 
 .left .project-description {
-  color: #909090;
+  color: #555555;
   display: inline;
   margin-left: 2%;
 }

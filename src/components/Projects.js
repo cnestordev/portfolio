@@ -38,7 +38,11 @@ function Projects() {
   })
 
   return (
-    <section className="projectsContainer" id="projects">
+    <section
+      style={{ marginTop: '6%' }}
+      className="projectsContainer"
+      id="projects"
+    >
       <Container>
         <h3 className="projectsHeader subheader">Projects</h3>
         <MainProject handleOpen={handleOpen} />
