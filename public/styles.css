@@ -399,6 +399,65 @@ section {
   padding: 0.1rem 0;
 }
 
+.techText {
+  background: linear-gradient(159deg, #00dfc0, #00a88f);
+  background-size: 900% 900%;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills-flex {
+  display: flex;
+}
+
+.side {
+  width: 50%;
+}
+
+.devImg {
+  width: 80%;
+}
+
+.skills-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech {
+  border-radius: 8px;
+  background: #fff;
+  width: 40%;
+  padding: 4%;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0 2%;
+}
+
+.other {
+  border-radius: 8px;
+  background: #fff;
+  width: 84%;
+  padding: 4%;
+  line-height: 1.3;
+  box-sizing: border-box;
+  margin: 2%;
+}
+
+.misc {
+  display: flex;
+}
+
+.misc p {
+  margin: 2%;
+}
+
+.skills-right h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
 /* Projects Component ------------------------------------------ */
 
 .projectsContainer {
