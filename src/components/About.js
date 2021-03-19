@@ -5,20 +5,29 @@ function About() {
   return (
     <section className="aboutContainer" id="about">
       <Container>
-        <h2 className="aboutHeader subheader">About Me</h2>
-        <p className="aboutText">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique sunt in culpa qui officia deserunt mollitia animi, id est
-          laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-          distinctio.
-        </p>
-        <div className="iconContainer">
-          <i class="fas fa-campground"></i>
-          <i class="fas fa-plane"></i>
-          <i class="fas fa-gamepad"></i>
-          <i class="fas fa-route"></i>
+        <h2 className="aboutHeader subheader">
+          About <span className="gradientText">Me</span>
+        </h2>
+        <div className="aboutFlex">
+          <div className="about-left">
+            <p className="aboutText">
+              I've always had a
+              <span className="gradientText"> love for technology</span>. Ever
+              since I had my first computer, I was always curious to find out
+              how it works under the hood. It amazed me that people can create
+              something from nothing, and always had an appreciation for it.
+              Being able to be a part of that is what fulfills me. I am a{' '}
+              <span className="gradientText">full-stack web developer</span>. I
+              have a passion for creating useful and user-friendly applications.
+              Other interests of mine include{' '}
+              <span className="gradientText">
+                camping, traveling, and sightseeing.
+              </span>
+            </p>
+          </div>
+          <div className="about-right">
+            <img className="camp-img" src="./camp.png" alt="camp ground" />
+          </div>
         </div>
       </Container>
     </section>

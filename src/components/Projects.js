@@ -47,7 +47,9 @@ function Projects() {
         <h3 className="projectsHeader subheader">Projects</h3>
         <MainProject handleOpen={handleOpen} />
         <div className="projectBoxContainer">
-          <h2 className="projects-other">Other Projects</h2>
+          <h2 className="projects-other">
+            <span className="gradientText">Other</span> Projects
+          </h2>
           {projectsArr}
         </div>
       </Container>

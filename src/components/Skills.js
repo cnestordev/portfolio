@@ -11,7 +11,7 @@ function Skills() {
     >
       <Container>
         <h3 className="skillsHeader subheader">
-          Tech<span className="techText">Skills</span>
+          Tech <span className="gradientText">Skills</span>
         </h3>
         <div className="skills-flex">
           <div className="skills-left side">
