@@ -4,30 +4,12 @@ import { Container } from '../styles'
 import MainProject from './MainProject'
 import ProjectBox from './ProjectBox'
 
+import { projects } from '../util/projects'
+import { GradientText } from '../styles'
+import { Section, Other } from '../styles/projects'
+
 function Projects() {
-  const [projectsSet] = useState([
-    {
-      name: 'Budget Sharing',
-      description: 'track of expenses shared by roommates',
-      photoUrl: './accounting.gif',
-      url: 'https://ncervapp.herokuapp.com/',
-      github: 'https://github.com/cnestordev/accounting-app',
-    },
-    {
-      name: 'Reddit Posts',
-      description: 'View Reddit posts from any domain',
-      photoUrl: './reddit.gif',
-      url: 'https://reddit-generator.herokuapp.com/',
-      github: 'https://github.com/cnestordev/reddit-generator',
-    },
-    {
-      name: 'Avatar Inputs',
-      description: 'Replaces radio buttons with avatar icons',
-      photoUrl: './avatar.gif',
-      url: 'https://avatar-input.herokuapp.com/',
-      github: 'https://github.com/cnestordev/avatarInputs',
-    },
-  ])
+  const [projectsSet] = useState(projects)
 
   const handleOpen = site => {
     window.open(site)
@@ -38,22 +20,18 @@ function Projects() {
   })
 
   return (
-    <section
-      style={{ marginTop: '6%' }}
-      className="projectsContainer"
-      id="projects"
-    >
+    <Section id="projects">
       <Container>
-        <h3 className="projectsHeader subheader">Projects</h3>
+        <h3 id="header">Projects</h3>
         <MainProject handleOpen={handleOpen} />
-        <div className="projectBoxContainer">
-          <h2 className="projects-other">
-            <span className="gradientText">Other</span> Projects
+        <Other>
+          <h2 id="other">
+            <GradientText>Other</GradientText> Projects
           </h2>
           {projectsArr}
-        </div>
+        </Other>
       </Container>
-    </section>
+    </Section>
   )
 }
 

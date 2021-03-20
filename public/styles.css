@@ -538,10 +538,6 @@ section {
   margin: 2% auto;
 }
 
-.fa-info-circle {
-  color: #909090;
-}
-
 .project-icons {
   background: #1b1b1b;
   border-radius: 7px;
@@ -684,11 +680,11 @@ section {
   margin-left: 5%;
 }
 
-.fa-external-link-alt {
+/* .fa-external-link-alt {
   margin-left: 2%;
   font-size: 1rem;
   color: rgb(119, 119, 119);
-}
+} */
 
 .right {
   width: 70%;

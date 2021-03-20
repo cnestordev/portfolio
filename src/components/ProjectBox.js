@@ -1,31 +1,20 @@
 import React from 'react'
 
+import { Container, Cta } from '../styles/projectbox'
+
 const ProjectBox = ({ project, handleOpen }) => {
   return (
-    <div className="projectBox" style={{ width: '25%' }}>
-      <h3>{project.name}</h3>
+    <Container>
+      <h3 id="title">{project.name}</h3>
       <p>{project.description}</p>
-      <img
-        alt="thumbnail of the project"
-        className="projectImg"
-        src={project.photoUrl}
-        style={{ width: '100%' }}
-      />
-      <div>
-        <button
-          onClick={() => handleOpen(project.url)}
-          className="project-btn sm"
-        >
-          Visit
-        </button>
-        <button
-          onClick={() => handleOpen(project.github)}
-          className="project-btn sm"
-        >
+      <img alt="thumbnail of the project" src={project.photoUrl} />
+      <Cta>
+        <button onClick={() => handleOpen(project.url)}>Visit</button>
+        <button onClick={() => handleOpen(project.github)}>
           <i className="fab fa-github"></i>
         </button>
-      </div>
-    </div>
+      </Cta>
+    </Container>
   )
 }
 
