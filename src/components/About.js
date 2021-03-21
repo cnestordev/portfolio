@@ -1,19 +1,28 @@
 import React from 'react'
+
 import { Container } from '../styles'
+import {
+  Section,
+  Header,
+  Subheader,
+  FlexContainer,
+  Left,
+  Right,
+} from '../styles/about'
 
 function About() {
   return (
-    <section className="aboutContainer" id="about">
+    <Section id="about">
       <Container>
-        <h2 className="aboutHeader subheader">
+        <Header>
           About <span className="gradientText">Me</span>
-        </h2>
-        <h4 className="contact-blob">
+        </Header>
+        <Subheader>
           <i class="far fa-envelope"></i> nestor@nestordev.com
-        </h4>
-        <div className="aboutFlex">
-          <div className="about-left">
-            <p className="aboutText">
+        </Subheader>
+        <FlexContainer>
+          <Left>
+            <p id="aboutText">
               I've always had a
               <span className="gradientText"> love for technology</span>. Ever
               since I had my first computer, I was always curious to find out
@@ -27,13 +36,13 @@ function About() {
                 camping, traveling, and sightseeing.
               </span>
             </p>
-          </div>
-          <div className="about-right">
-            <img className="camp-img" src="./camp.png" alt="camp ground" />
-          </div>
-        </div>
+          </Left>
+          <Right>
+            <img src="./camp.png" alt="camp ground" />
+          </Right>
+        </FlexContainer>
       </Container>
-    </section>
+    </Section>
   )
 }
 
