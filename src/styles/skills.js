@@ -15,6 +15,12 @@ export const Container = styled.div`
     margin: 2.5rem 0;
     margin-bottom: 3rem;
   }
+
+  @media (max-width: 1320px) {
+    h3#header {
+      font-size: 3.2rem;
+    }
+  }
 `
 
 export const SkillsFlexContainer = styled.div`
@@ -49,6 +55,12 @@ export const Stack = styled.div`
     font-weight: bold;
     color: #2c2c2c;
   }
+
+  @media (max-width: 1320px) {
+    h3 {
+      font-size: 1.4rem;
+    }
+  }
 `
 
 export const Other = styled.div`
@@ -64,6 +76,12 @@ export const Other = styled.div`
     font-size: 1.4rem;
     font-weight: bold;
     color: #2c2c2c;
+  }
+
+  @media (max-width: 1320px) {
+    h3 {
+      font-size: 1.3rem;
+    }
   }
 `
 

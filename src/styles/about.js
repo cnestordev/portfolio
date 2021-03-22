@@ -13,6 +13,10 @@ export const Header = styled.h2`
   text-align: center;
   margin: 2.5rem 0;
   margin-bottom: 0.5rem;
+
+  @media (max-width: 1320px) {
+    font-size: 2.8rem;
+  }
 `
 
 export const Subheader = styled.h4`
@@ -30,6 +34,10 @@ export const Subheader = styled.h4`
   i {
     margin-right: 2%;
   }
+
+  @media (max-width: 1320px) {
+    font-size: 1rem;
+  }
 `
 
 export const FlexContainer = styled.div`
@@ -44,6 +52,13 @@ export const Left = styled.div`
     font-size: 1.3rem;
     line-height: 2;
     color: var(--black);
+  }
+
+  @media (max-width: 1320px) {
+    p#aboutText {
+      font-size: 1.1rem;
+      padding: 1%;
+    }
   }
 `
 

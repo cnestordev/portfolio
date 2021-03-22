@@ -11,6 +11,12 @@ export const Section = styled.section`
     text-align: center;
     margin: 6% 0 5%;
   }
+
+  @media (max-width: 1320px) {
+    h3#header {
+      font-size: 3.2rem;
+    }
+  }
 `
 
 export const Other = styled.div`

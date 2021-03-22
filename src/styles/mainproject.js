@@ -34,6 +34,12 @@ export const Left = styled.div`
     left: 0%;
     transform: rotate3d(11, -3, 1, 45deg);
   }
+
+  @media (max-width: 1320px) {
+    h2#title {
+      font-size: 3.5rem;
+    }
+  }
 `
 
 export const Info = styled.div`
@@ -79,6 +85,12 @@ export const Icon = styled.div`
     font-size: 2.5rem;
     display: inline;
   }
+
+  @media (max-width: 1320px) {
+    i {
+      font-size: 2.2rem;
+    }
+  }
 `
 
 export const JavaScript = styled.i`
@@ -116,6 +128,12 @@ export const About = styled.div`
     color: inherit;
     padding: 1% 0 6%;
   }
+
+  @media (max-width: 1320px) {
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
 `
 
 export const Cta = styled.div`
@@ -145,6 +163,12 @@ export const Cta = styled.div`
     width: 20%;
     margin-right: 0;
   }
+
+  @media (max-width: 1320px) {
+    button {
+      font-size: 1rem;
+    }
+  }
 `
 
 export const GitContainer = styled.span`
@@ -161,4 +185,5 @@ export const ExtIcon = styled.i`
 export const Right = styled.div`
   width: 40%;
   padding-left: 15%;
+  padding-top: 2%;
 `

@@ -62,4 +62,18 @@ export const Intro = styled.div`
     color: #fff;
     transition: 200ms;
   }
+
+  @media (max-width: 1320px) {
+    h1 {
+      font-size: 2.8rem;
+    }
+
+    h3 {
+      font-size: 1.35rem;
+    }
+
+    a {
+      padding: 0.95rem 1.5rem;
+    }
+  }
 `
