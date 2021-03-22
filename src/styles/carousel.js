@@ -1,8 +1,8 @@
 import styled, { keyframes } from 'styled-components'
 
 export const Root = styled.div`
-  border: 1px solid #888888;
-  border-radius: 5px;
+  border: 3px solid #d8d8d8;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -32,10 +32,24 @@ export const Body = styled.div`
 `
 
 export const Img = styled.img`
-  width: auto;
+  width: 90%;
   border-radius: 3px;
-  height: 500px;
   display: ${props => (props.loaded ? 'block' : 'none')};
+`
+
+export const Info = styled.div`
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 2%;
+  width: 90%;
+  margin: 1% auto;
+
+  p {
+    color: #505050;
+    font-size: 0.9rem;
+  }
 `
 
 export const NavBtns = styled.div`
@@ -54,7 +68,7 @@ export const NavBtn = styled.span`
 `
 
 export const Arrow = styled.span`
-  width: 5%;
+  width: 4%;
   cursor: pointer;
   color: ${props => (props.disabled ? '#c3c3c3' : '#000')};
 `
