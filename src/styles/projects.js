@@ -17,6 +17,24 @@ export const Section = styled.section`
       font-size: 3.2rem;
     }
   }
+
+  @media (max-width: 1220px) {
+    h3#header {
+      font-size: 3.1rem;
+    }
+  }
+
+  @media (max-width: 1010px) {
+    h3#header {
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 915px) {
+    h3#header {
+      font-size: 2.7rem;
+    }
+  }
 `
 
 export const Other = styled.div`

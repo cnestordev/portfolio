@@ -3,6 +3,11 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   justify-content: space-around;
+
+  @media (max-width: 920px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const Left = styled.div`
@@ -40,6 +45,23 @@ export const Left = styled.div`
       font-size: 3.5rem;
     }
   }
+
+  @media (max-width: 1075px) {
+    width: 40%;
+
+    h2#title {
+      font-size: 3.2rem;
+    }
+  }
+
+  @media (max-width: 915px) {
+    width: 50%;
+
+    h2#title::after {
+      width: 100%;
+      text-align: center;
+    }
+  }
 `
 
 export const Info = styled.div`
@@ -72,8 +94,11 @@ export const Icons = styled.div`
 export const Icon = styled.div`
   width: 20%;
   text-align: center;
-  display: inline-block;
   margin: 5% 0.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   p {
     font-size: 0.8em;
@@ -89,6 +114,16 @@ export const Icon = styled.div`
   @media (max-width: 1320px) {
     i {
       font-size: 2.2rem;
+    }
+  }
+
+  @media (max-width: 915px) {
+    i {
+      font-size: 1.6rem;
+    }
+
+    p {
+      font-size: 0.7rem;
     }
   }
 `
@@ -186,4 +221,8 @@ export const Right = styled.div`
   width: 40%;
   padding-left: 15%;
   padding-top: 2%;
+
+  @media (max-width: 1075px) {
+    width: 48%;
+  }
 `

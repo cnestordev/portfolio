@@ -21,6 +21,24 @@ export const Container = styled.div`
       font-size: 3.2rem;
     }
   }
+
+  @media (max-width: 1220px) {
+    h3#header {
+      font-size: 3.1rem;
+    }
+  }
+
+  @media (max-width: 1010px) {
+    h3#header {
+      font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 1010px) {
+    h3#header {
+      font-size: 2.7rem;
+    }
+  }
 `
 
 export const SkillsFlexContainer = styled.div`
@@ -31,7 +49,7 @@ export const Left = styled.div`
   width: 50%;
 
   img {
-    width: 80%;
+    width: 85%;
   }
 `
 
@@ -61,6 +79,33 @@ export const Stack = styled.div`
       font-size: 1.4rem;
     }
   }
+
+  @media (max-width: 1220px) {
+    width: 45%;
+    padding-left: 5%;
+
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 1010px) {
+    width: 46%;
+    padding-left: 5%;
+
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 915px) {
+    width: 46%;
+    padding-left: 5%;
+
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
 `
 
 export const Other = styled.div`
@@ -81,6 +126,22 @@ export const Other = styled.div`
   @media (max-width: 1320px) {
     h3 {
       font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 1220px) {
+    width: 94%;
+
+    h3 {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 1010px) {
+    width: 96%;
+
+    h3 {
+      font-size: 1.2rem;
     }
   }
 `

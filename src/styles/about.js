@@ -76,4 +76,12 @@ export const Svg = styled.svg`
   position: absolute;
   top: -78%;
   left: 0;
+
+  @media (max-width: 1434px) {
+    top: -72%;
+  }
+
+  @media (max-width: 1434px) {
+    top: -71%;
+  }
 `
