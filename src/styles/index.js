@@ -11,5 +11,5 @@ export const GradientText = styled.span`
   position: relative;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
+  font-weight: ${props => (props.weight === 'normal' ? '500' : 'bold')};
 `

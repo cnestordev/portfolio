@@ -27,7 +27,9 @@ const Footer = () => {
       </Item>
       <Item onClick={() => handleClick('mailto:nestor@nestordev.com')}>
         <i class="far fa-envelope"></i>
-        <p>nestor@nestordev.com</p>
+        <p>
+          nestor@<GradientText weight="normal">nestordev.com</GradientText>
+        </p>
       </Item>
     </Container>
   )
