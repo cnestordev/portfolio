@@ -1,6 +1,6 @@
 import React from 'react'
-import { Carousel } from 'react-responsive-carousel'
-import styles from 'react-responsive-carousel/lib/styles/carousel.min.css'
+
+import Carousel from './Carousel'
 
 import {
   Container,
@@ -20,10 +20,6 @@ import {
 } from '../styles/mainproject'
 
 const MainProject = ({ handleOpen }) => {
-  const borderStyle = {
-    borderRadius: '10px',
-  }
-
   return (
     <Container>
       <Left>
@@ -80,28 +76,7 @@ const MainProject = ({ handleOpen }) => {
         </Cta>
       </Left>
       <Right>
-        <Carousel width="75%" dynamicHeight={true}>
-          <div>
-            <img style={borderStyle} src="./posts.gif" alt="phone" />
-            <p className="legend">View Posts</p>
-          </div>
-          <div>
-            <img style={borderStyle} src="./comment.gif" alt="phone" />
-            <p className="legend">Like and Comment</p>
-          </div>
-          <div>
-            <img style={borderStyle} src="./create.gif" alt="phone" />
-            <p className="legend">Crate a Post</p>
-          </div>
-          <div>
-            <img style={borderStyle} src="./darkmode.gif" alt="phone" />
-            <p className="legend">Dark Mode/Light Mode</p>
-          </div>
-          <div>
-            <img style={borderStyle} src="./account.gif" alt="phone" />
-            <p className="legend">main</p>
-          </div>
-        </Carousel>
+        <Carousel />
       </Right>
     </Container>
   )

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 `
 
 export const Left = styled.div`
@@ -159,5 +159,6 @@ export const ExtIcon = styled.i`
 `
 
 export const Right = styled.div`
-  width: 70%;
+  width: 40%;
+  padding-left: 15%;
 `
