@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
   margin-top: 5rem;
-  background: #f8f8ff;
+  background: #fff7e4;
 `
 
 export const Header = styled.h2`
@@ -15,16 +15,20 @@ export const Header = styled.h2`
 `
 
 export const Subheader = styled.h4`
-  background: #efefef;
-  color: var(--black);
+  background: #f5e7c5;
+  color: #555;
   border-radius: 5px;
   font-size: 1.1rem;
   width: max-content;
   margin: 0 auto 2%;
   text-align: center;
-  padding: 1%;
+  padding: 1% 1.5%;
   display: flex;
   align-items: center;
+
+  i {
+    margin-right: 2%;
+  }
 `
 
 export const FlexContainer = styled.div`
