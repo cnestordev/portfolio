@@ -27,7 +27,8 @@ const MainProject = ({ handleOpen }) => {
         <Info>
           <i className="fas fa-info-circle" />
           <p className="project-description">
-            A website for posting and sharing interesting things.
+            A website for sharing interesting things with people around the
+            world.
           </p>
         </Info>
         <Icons>

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Section = styled.section`
   position: relative;
   margin-top: 6%;
+  padding-bottom: 12%;
 
   h3#header {
     color: var(--black);
@@ -50,4 +51,16 @@ export const Other = styled.div`
     flex-basis: 100%;
     padding: 2% 0;
   }
+
+  @media (max-width: 915px) {
+    h2#other {
+      font-size: 1.8rem;
+    }
+  }
+`
+
+export const Svg = styled.svg`
+  position: absolute;
+  left: 0;
+  bottom: 0;
 `

@@ -3,11 +3,6 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   justify-content: space-around;
-
-  @media (max-width: 920px) {
-    flex-direction: column;
-    align-items: center;
-  }
 `
 
 export const Left = styled.div`
@@ -55,17 +50,20 @@ export const Left = styled.div`
   }
 
   @media (max-width: 915px) {
-    width: 50%;
+    h2#title {
+      font-size: 2.6rem;
+    }
 
     h2#title::after {
-      width: 100%;
-      text-align: center;
+      width: 94%;
+      height: 3.4vh;
     }
   }
 `
 
 export const Info = styled.div`
-  margin: 2% auto;
+  margin: 3% auto;
+  line-height: 1.2;
 
   i {
     color: #909090;
@@ -76,19 +74,30 @@ export const Info = styled.div`
     display: inline;
     margin-left: 2%;
   }
+
+  @media (max-width: 915px) {
+    p {
+      font-size: 0.89rem;
+    }
+  }
 `
 
 export const Icons = styled.div`
   background: #1b1b1b;
   border-radius: 7px;
-  position: relative;
+  position: static;
   display: flex;
+  margin: 2% auto;
   justify-content: space-between;
   z-index: -1;
   top: 2%;
   left: -4%;
-  padding: 1% 3%;
+  padding: 1% 2%;
   width: 95%;
+
+  @media (max-width: 915px) {
+    padding: 1% 2%;
+  }
 `
 
 export const Icon = styled.div`
@@ -119,11 +128,11 @@ export const Icon = styled.div`
 
   @media (max-width: 915px) {
     i {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
     }
 
     p {
-      font-size: 0.7rem;
+      font-size: 0.5rem;
     }
   }
 `
@@ -169,6 +178,16 @@ export const About = styled.div`
       font-size: 1.3rem;
     }
   }
+
+  @media (max-width: 915px) {
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
 `
 
 export const Cta = styled.div`
@@ -204,6 +223,18 @@ export const Cta = styled.div`
       font-size: 1rem;
     }
   }
+
+  @media (max-width: 915px) {
+    text-align: center;
+
+    button {
+      width: 67%;
+    }
+
+    button#github {
+      width: 30%;
+    }
+  }
 `
 
 export const GitContainer = styled.span`
@@ -219,10 +250,14 @@ export const ExtIcon = styled.i`
 
 export const Right = styled.div`
   width: 40%;
-  padding-left: 15%;
+  padding-left: 10%;
   padding-top: 2%;
 
   @media (max-width: 1075px) {
     width: 48%;
+  }
+
+  @media (max-width: 915px) {
+    width: 55%;
   }
 `

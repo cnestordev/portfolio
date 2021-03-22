@@ -23,6 +23,18 @@ export const Container = styled.div`
     border-radius: 5px;
     width: 100%;
   }
+
+  @media (max-width: 915px) {
+    width: 28%;
+
+    h3#title {
+      font-size: 1.2rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
+  }
 `
 
 export const Cta = styled.div`
@@ -44,5 +56,6 @@ export const Cta = styled.div`
     background: #000;
     color: #fff;
     transition: 300ms;
+    cursor: pointer;
   }
 `

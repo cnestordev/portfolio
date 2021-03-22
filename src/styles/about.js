@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  margin-top: 5rem;
   background: #fff7e4;
   position: relative;
 `
@@ -69,19 +68,5 @@ export const Right = styled.div`
 
   img {
     width: 100%;
-  }
-`
-
-export const Svg = styled.svg`
-  position: absolute;
-  top: -78%;
-  left: 0;
-
-  @media (max-width: 1434px) {
-    top: -72%;
-  }
-
-  @media (max-width: 1434px) {
-    top: -71%;
   }
 `
