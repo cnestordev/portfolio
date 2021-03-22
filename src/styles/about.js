@@ -3,10 +3,11 @@ import styled from 'styled-components'
 export const Section = styled.section`
   margin-top: 5rem;
   background: #fff7e4;
+  position: relative;
 `
 
 export const Header = styled.h2`
-  color: var(--black);
+  color: #484848;
   font-size: 3.5rem;
   font-weight: 700;
   text-align: center;
@@ -54,4 +55,10 @@ export const Right = styled.div`
   img {
     width: 100%;
   }
+`
+
+export const Svg = styled.svg`
+  position: absolute;
+  top: -78%;
+  left: 0;
 `
