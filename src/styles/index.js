@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Container = styled.div`
   padding: 0 10%;
   position: relative;
+
+  @media (max-width: 915px) {
+    padding: 0 5%;
+  }
 `
 
 export const GradientText = styled.span`

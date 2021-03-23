@@ -12,7 +12,6 @@ function Projects() {
   const [projectsSet] = useState(projects)
 
   const handleOpen = site => {
-    console.log('trig')
     window.open(site)
   }
 
@@ -32,7 +31,7 @@ function Projects() {
           {projectsArr}
         </Other>
       </Container>
-      <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <Svg viewBox="0 0 1440 320">
         <path
           fill="#fff7e4"
           fill-opacity="1"

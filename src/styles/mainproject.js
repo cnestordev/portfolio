@@ -3,6 +3,11 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   justify-content: space-around;
+
+  @media (max-width: 650px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const Left = styled.div`
@@ -57,6 +62,30 @@ export const Left = styled.div`
     h2#title::after {
       width: 94%;
       height: 3.4vh;
+    }
+  }
+
+  @media (max-width: 650px) {
+    width: 68%;
+
+    h2#title {
+      text-align: center;
+    }
+
+    h2#title::after {
+      left: 15%;
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 485px) {
+    width: 85%;
+  }
+
+  @media (max-width: 385px) {
+    h2#title::after {
+      width: 88%;
+      left: 7%;
     }
   }
 `
@@ -133,6 +162,20 @@ export const Icon = styled.div`
 
     p {
       font-size: 0.5rem;
+    }
+  }
+
+  @media (max-width: 650px) {
+    margin: 1% 0.5%;
+
+    i {
+      font-size: 2.4rem;
+    }
+  }
+
+  @media (max-width: 385px) {
+    i {
+      font-size: 1.9rem;
     }
   }
 `
@@ -259,5 +302,17 @@ export const Right = styled.div`
 
   @media (max-width: 915px) {
     width: 55%;
+  }
+
+  @media (max-width: 650px) {
+    width: 73%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 485px) {
+    width: 90%;
+    margin-top: 5%;
   }
 `

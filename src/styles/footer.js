@@ -4,12 +4,19 @@ export const Container = styled.section`
   background: #121212;
   display: flex;
   justify-content: center;
+
+  @media (max-width: 861px) {
+    justify-content: space-around;
+  }
+
+  @media (max-width: 590px) {
+    flex-direction: column;
+  }
 `
 
 export const Item = styled.div`
   color: #fff;
   margin: 0 2%;
-  width: 17%;
   display: flex;
   align-items: center;
 
@@ -24,5 +31,13 @@ export const Item = styled.div`
 
   &:hover {
     cursor: pointer;
+  }
+
+  @media (max-width: 590px) {
+    margin: 1% auto;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 `

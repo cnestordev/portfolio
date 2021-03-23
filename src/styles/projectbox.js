@@ -35,6 +35,20 @@ export const Container = styled.div`
       font-size: 0.8rem;
     }
   }
+
+  @media (max-width: 755px) {
+    width: 45%;
+    margin-top: 2%;
+  }
+
+  @media (max-width: 510px) {
+    width: 65%;
+  }
+
+  @media (max-width: 480px) {
+    width: 80%;
+    margin-top: 5%;
+  }
 `
 
 export const Cta = styled.div`

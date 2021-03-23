@@ -5,7 +5,7 @@ export const Section = styled.section`
   position: relative;
 `
 export const Container = styled.div`
-  padding: 0 10%;
+  padding: 0 5%;
 
   h3#header {
     color: var(--black);
@@ -39,6 +39,24 @@ export const Container = styled.div`
       font-size: 2.7rem;
     }
   }
+
+  @media (max-width: 785px) {
+    height: 55vh;
+  }
+
+  @media (max-width: 585px) {
+    height: 95vh;
+  }
+
+  @media (max-width: 445px) {
+    height: 110vh;
+  }
+
+  @media (max-width: 385px) {
+    h3#header {
+      font-size: 2.3rem;
+    }
+  }
 `
 
 export const SkillsFlexContainer = styled.div`
@@ -51,12 +69,63 @@ export const Left = styled.div`
   img {
     width: 85%;
   }
+
+  @media (max-width: 785px) {
+    position: absolute;
+    top: 29%;
+    left: 5%;
+  }
+
+  @media (max-width: 700px) {
+    opacity: 0.7;
+  }
+
+  @media (max-width: 585px) {
+    top: 20%;
+    left: 25%;
+    opacity: 1;
+  }
+
+  @media (max-width: 445px) {
+    top: 14%;
+    left: 20%;
+    width: 60%;
+  }
 `
 
 export const Right = styled.div`
   width: 50%;
   display: flex;
   flex-wrap: wrap;
+
+  @media (max-width: 785px) {
+    position: absolute;
+    right: 10%;
+  }
+
+  @media (max-width: 700px) {
+    width: 60%;
+  }
+
+  @media (max-width: 585px) {
+    width: 80%;
+    right: 10%;
+    top: 35%;
+    opacity: 0.98;
+  }
+
+  @media (max-width: 585px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width: 445px) {
+    width: 80%;
+    right: 10%;
+    top: 27%;
+    opacity: 1;
+  }
 `
 
 export const Stack = styled.div`
@@ -106,6 +175,21 @@ export const Stack = styled.div`
       font-size: 1.3rem;
     }
   }
+
+  @media (max-width: 785px) {
+    p {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 585px) {
+    margin: 2% auto;
+    width: 60%;
+  }
+
+  @media (max-width: 445px) {
+    width: 80%;
+  }
 `
 
 export const Other = styled.div`
@@ -144,6 +228,10 @@ export const Other = styled.div`
       font-size: 1.2rem;
     }
   }
+
+  @media (max-width: 445px) {
+    width: 80%;
+  }
 `
 
 export const Misc = styled.div`
@@ -155,6 +243,10 @@ export const Misc = styled.div`
     &:last-of-type {
       margin-right: 0;
     }
+  }
+
+  @media (max-width: 445px) {
+    flex-direction: column;
   }
 `
 

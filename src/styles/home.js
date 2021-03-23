@@ -76,4 +76,19 @@ export const Intro = styled.div`
       padding: 0.95rem 1.5rem;
     }
   }
+
+  @media (max-width: 385px) {
+    h1 {
+      font-size: 2.2rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+    }
+
+    a {
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+    }
+  }
 `

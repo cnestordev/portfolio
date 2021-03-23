@@ -36,6 +36,12 @@ export const Section = styled.section`
       font-size: 2.7rem;
     }
   }
+
+  @media (max-width: 385px) {
+    h3#header {
+      font-size: 2.3rem;
+    }
+  }
 `
 
 export const Other = styled.div`
@@ -55,6 +61,15 @@ export const Other = styled.div`
   @media (max-width: 915px) {
     h2#other {
       font-size: 1.8rem;
+    }
+  }
+
+  @media (max-width: 510px) {
+    justify-content: center;
+
+    h2#other {
+      text-align: center;
+      margin: 2%;
     }
   }
 `
