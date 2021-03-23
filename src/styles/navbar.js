@@ -46,6 +46,27 @@ export const Nav = styled.nav`
     color: var(--green);
     transition: 500ms;
   }
+
+  @media (max-width: 630px) {
+    ul {
+      display: none;
+    }
+  }
+`
+
+export const Icon = styled.span`
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    font-size: 2rem;
+    color: #8a8a8a;
+  }
+
+  @media (max-width: 630px) {
+    display: flex;
+  }
 `
 
 export const LogoContainer = styled.div`
