@@ -7,7 +7,7 @@ import Hamburger from './Hamburger'
 function Navbar({ toggler, visible }) {
   const handleClick = () => {
     window.open(
-      'https://drive.google.com/file/d/1pgbPtdytVL3XyjTTO2_3MZaJeUy-oT7s/view'
+      'https://drive.google.com/file/d/13MYT-9jvqv4B_wSsfR0sCQAMtZlXTpF3/view?usp=sharing'
     )
   }
 
