@@ -5,6 +5,12 @@ import { Header, Nav, LogoContainer, Logo } from '../styles/navbar'
 import Hamburger from './Hamburger'
 
 function Navbar({ toggler, visible }) {
+  const handleClick = () => {
+    window.open(
+      'https://drive.google.com/file/d/1pgbPtdytVL3XyjTTO2_3MZaJeUy-oT7s/view'
+    )
+  }
+
   return (
     <Header>
       <Nav>
@@ -29,7 +35,9 @@ function Navbar({ toggler, visible }) {
           </li>
           <li>
             <GradientText>
-              <a href="#">Resume</a>
+              <a onClick={() => handleClick()} href="#">
+                Resume
+              </a>
             </GradientText>
           </li>
         </ul>
