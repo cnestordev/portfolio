@@ -1,19 +1,18 @@
 import React from 'react'
 
-import { Header, Nav, LogoContainer, Icon } from '../styles/navbar'
+import { Header, Nav, LogoContainer, Logo } from '../styles/navbar'
 import Hamburger from './Hamburger'
 
 function Navbar({ toggler, visible }) {
   return (
     <Header>
       <Nav>
-        <LogoContainer>
-          <p id="LogoLetters">NC</p>
-        </LogoContainer>
+        <Logo>
+          <LogoContainer>
+            <p id="LogoLetters">NC</p>
+          </LogoContainer>
+        </Logo>
         <Hamburger visible={visible} toggler={toggler} />
-        {/* <Icon onClick={() => toggler()}>
-          <i class="fas fa-bars"></i>
-        </Icon> */}
         <ul>
           <li>
             <a href="#home">Home</a>

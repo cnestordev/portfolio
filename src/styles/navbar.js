@@ -17,6 +17,7 @@ export const Nav = styled.nav`
   padding: 0.5rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   width: 80%;
   -moz-user-select: -moz-none;
@@ -52,6 +53,11 @@ export const Nav = styled.nav`
       display: none;
     }
   }
+`
+
+export const Logo = styled.div`
+  padding: 1%;
+  transform: scale(0.8);
 `
 
 export const Icon = styled.span`

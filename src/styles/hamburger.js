@@ -1,10 +1,14 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 630px) {
+    display: flex;
+  }
 `
 
 export const Top = styled.span`
