@@ -10,6 +10,18 @@ const Footer = () => {
 
   return (
     <Container>
+      <Item
+        onClick={() =>
+          handleClick(
+            'https://drive.google.com/file/d/1pgbPtdytVL3XyjTTO2_3MZaJeUy-oT7s/view'
+          )
+        }
+      >
+        <i class="far fa-file"></i>
+        <p>
+          <GradientText>resume</GradientText>
+        </p>
+      </Item>
       <Item onClick={() => handleClick('https://github.com/cnestordev')}>
         <i class="fab fa-github"></i>
         <p>

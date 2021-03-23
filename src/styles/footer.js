@@ -9,7 +9,7 @@ export const Container = styled.section`
     justify-content: space-around;
   }
 
-  @media (max-width: 590px) {
+  @media (max-width: 755px) {
     flex-direction: column;
   }
 `
@@ -33,7 +33,7 @@ export const Item = styled.div`
     cursor: pointer;
   }
 
-  @media (max-width: 590px) {
+  @media (max-width: 755px) {
     margin: 1% auto;
 
     &:last-of-type {

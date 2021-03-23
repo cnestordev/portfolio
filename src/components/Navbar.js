@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { GradientText } from '../styles'
 import { Header, Nav, LogoContainer, Logo } from '../styles/navbar'
 import Hamburger from './Hamburger'
 
@@ -25,6 +26,11 @@ function Navbar({ toggler, visible }) {
           </li>
           <li>
             <a href="#about">About</a>
+          </li>
+          <li>
+            <GradientText>
+              <a href="#">Resume</a>
+            </GradientText>
           </li>
         </ul>
       </Nav>

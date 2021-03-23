@@ -35,3 +35,9 @@ export const Item = styled.div`
     color: inherit;
   }
 `
+
+export const Icon = styled.i`
+  color: #585858;
+  margin-left: 5%;
+  font-size: 1.2rem;
+`
