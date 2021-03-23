@@ -78,4 +78,5 @@ export const Svg = styled.svg`
   position: absolute;
   left: 0;
   bottom: 0;
+  z-index: -1;
 `
