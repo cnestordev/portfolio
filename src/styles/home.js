@@ -55,6 +55,7 @@ export const Intro = styled.div`
     font-size: 1rem;
     transition: 200ms;
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   a:hover {
