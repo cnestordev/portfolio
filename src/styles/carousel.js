@@ -65,12 +65,14 @@ export const NavBtn = styled.span`
   width: 8px;
   height: 8px;
   margin: 2%;
+  -webkit-tap-highlight-color: transparent;
 `
 
 export const Arrow = styled.span`
   width: 4%;
   cursor: pointer;
   color: ${props => (props.disabled ? '#c3c3c3' : '#000')};
+  -webkit-tap-highlight-color: transparent;
 `
 
 export const Animate = keyframes`
