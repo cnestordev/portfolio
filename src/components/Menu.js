@@ -31,7 +31,7 @@ const Menu = ({ visible, toggler }) => {
           onClick={() => {
             toggler()
             window.open(
-              'https://drive.google.com/file/d/1vFcS6hJX8rvNxkvm9zlQSxP5K1ijJmMB/view?usp=sharing'
+              'https://drive.google.com/file/d/1z7zZGpYL3Ux_B2waldxKgwhlQOY3Gwpk/view?usp=sharing'
             )
           }}
           href="#"
