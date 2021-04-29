@@ -18,7 +18,7 @@ function About() {
           About <span className="gradientText">Me</span>
         </Header>
         <Subheader>
-          <i class="far fa-envelope"></i> nestor@nestordev.com
+          <i class="far fa-envelope"></i> nestor@nestorweb.dev
         </Subheader>
         <FlexContainer>
           <Left>
