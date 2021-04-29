@@ -37,10 +37,10 @@ const Footer = () => {
           cnestordev
         </p>
       </Item>
-      <Item onClick={() => handleClick('mailto:nestor@nestorweb.dev')}>
+      <Item onClick={() => handleClick('mailto:nestor@nestordev.com')}>
         <i class="far fa-envelope"></i>
         <p>
-          nestor@<GradientText weight="normal">nestorweb.dev</GradientText>
+          nestor@<GradientText weight="normal">nestordev.com</GradientText>
         </p>
       </Item>
     </Container>
