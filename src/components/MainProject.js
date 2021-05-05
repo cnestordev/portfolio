@@ -58,7 +58,7 @@ const MainProject = ({ handleOpen }) => {
         </About>
         <Cta>
           <button
-            onClick={() => handleOpen('http://threaddit-app.herokuapp.com/')}
+            onClick={() => handleOpen('https://threaddit-app.herokuapp.com/')}
           >
             Visit Website{' '}
             <ExtIcon className="fas fa-external-link-alt"></ExtIcon>
