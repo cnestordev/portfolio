@@ -95,6 +95,8 @@ export const FlexContainer = styled.div`
 
 export const Left = styled.div`
   width: 50%;
+  display: flex;
+  align-items: center;
 
   p#aboutText {
     font-size: 1.3rem;
