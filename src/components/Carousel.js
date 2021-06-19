@@ -14,14 +14,14 @@ import {
 } from '../styles/carousel'
 
 const Carousel = props => {
-  const [images, setImages] = useState([
+  const [images] = useState([
     './carousel/posts.gif',
     './carousel/postdetail.gif',
     './carousel/create.gif',
     './carousel/account.gif',
     './carousel/darkmode.gif',
   ])
-  const [description, setDescription] = useState([
+  const [description] = useState([
     'View, like, and dislike posts',
     'Comment on posts that interest you',
     'Create your own post and share it with others',

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { GradientText } from '../styles'
-import { Container, Item, Icon } from '../styles/menu'
+import { Container, Item } from '../styles/menu'
 
 const Menu = ({ visible, toggler }) => {
   return (
@@ -28,6 +28,7 @@ const Menu = ({ visible, toggler }) => {
       </Item>
       <Item>
         <a
+          href="#"
           onClick={() => {
             toggler()
             window.open(

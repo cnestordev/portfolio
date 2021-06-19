@@ -33,7 +33,7 @@ export const Intro = styled.div`
     z-index: 2;
   }
 
-  h3::after {
+  /* h3::after {
     content: '';
     height: 4vh;
     width: 106%;
@@ -43,7 +43,7 @@ export const Intro = styled.div`
     left: -3%;
     top: -5%;
     transform: rotate3d(11, -3, 1, 45deg);
-  }
+  } */
 
   a {
     border: 2px solid var(--black);

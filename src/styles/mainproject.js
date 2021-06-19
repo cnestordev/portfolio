@@ -27,7 +27,7 @@ export const Left = styled.div`
     margin: 2% 0;
   }
 
-  h2#title::after {
+  /* h2#title::after {
     content: '';
     display: block;
     width: 95%;
@@ -38,7 +38,7 @@ export const Left = styled.div`
     z-index: -1;
     left: 0%;
     transform: rotate3d(11, -3, 1, 45deg);
-  }
+  } */
 
   @media (max-width: 1320px) {
     h2#title {
