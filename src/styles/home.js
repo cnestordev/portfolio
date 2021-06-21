@@ -1,10 +1,7 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  background: var(--gradientColor);
-  background: var(--gradient);
-  background-position: center;
-  background-size: cover;
+  background: #121212;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +15,11 @@ export const Intro = styled.div`
 
   h1 {
     font-size: 3rem;
-    color: var(--black);
+    background: linear-gradient(36deg, #0fff9b, #137cff);
+    background-size: 200% 200%;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
     margin-bottom: 1.7rem;
   }
@@ -48,8 +49,8 @@ export const Intro = styled.div`
   a {
     border: 2px solid var(--black);
     border-radius: 50px;
-    background: transparent;
-    color: var(--black);
+    background: var(--black);
+    color: #fff;
     cursor: pointer;
     padding: 1rem 1.8rem;
     font-size: 1rem;
@@ -59,8 +60,8 @@ export const Intro = styled.div`
   }
 
   a:hover {
-    background: var(--black);
-    color: #fff;
+    background: #11d0bf;
+    border-color: #11d0bf;
     transition: 200ms;
   }
 
