@@ -42,7 +42,7 @@ function Skills() {
               <p>Express</p>
               <p>MongoDB</p>
               <p>Mongoose</p>
-              <p>Postgres</p>
+              <p>MySQL</p>
               <p>PassportJS</p>
               <p>REST</p>
             </Stack>
