@@ -6,11 +6,10 @@ export const Header = styled.header`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 6vh;
   background: #121212;
   z-index: 3;
   position: fixed;
-  padding: 0.65rem 0;
+  padding: 2.5rem 0;
 `
 
 export const Nav = styled.nav`
@@ -58,6 +57,11 @@ export const Nav = styled.nav`
 export const Logo = styled.div`
   padding: 1%;
   transform: scale(0.8);
+  width: 5%;
+
+  img {
+    width: 100%;
+  }
 `
 
 export const Icon = styled.span`

@@ -3,6 +3,7 @@ import React from 'react'
 import { GradientText } from '../styles'
 import { Header, Nav, LogoContainer, Logo } from '../styles/navbar'
 import Hamburger from './Hamburger'
+import brand from '../assets/newlogo.png'
 
 function Navbar({ toggler, visible }) {
   const handleClick = () => {
@@ -15,9 +16,7 @@ function Navbar({ toggler, visible }) {
     <Header>
       <Nav>
         <Logo>
-          <LogoContainer>
-            <p id="LogoLetters">NC</p>
-          </LogoContainer>
+          <img src={brand} />
         </Logo>
         <Hamburger visible={visible} toggler={toggler} />
         <ul>
