@@ -57,11 +57,19 @@ export const Nav = styled.nav`
 export const Logo = styled.div`
   padding: 1%;
   transform: scale(0.8);
-  width: 5%;
+  width: 4em;
 
   img {
     width: 100%;
   }
+
+  /* @media (max-width: 420px) {
+    width: 20%;
+  }
+
+  @media (max-width: 420px) {
+    width: 20%;
+  } */
 `
 
 export const Icon = styled.span`
@@ -76,33 +84,5 @@ export const Icon = styled.span`
 
   @media (max-width: 630px) {
     display: flex;
-  }
-`
-
-export const LogoContainer = styled.div`
-  border: 2px solid #fff;
-  border-radius: 50px;
-  cursor: pointer;
-  font-size: 1.5rem;
-  display: inline-block;
-  padding: 1.5rem;
-  position: relative;
-
-  p#LogoLetters {
-    color: inherit;
-    font-family: 'Sen';
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  &:hover,
-  p#LogoLetters:hover {
-    color: var(--gradientColor);
-    border-color: var(--gradientColor);
-    transition: 200ms;
   }
 `
