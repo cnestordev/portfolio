@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { GradientText } from '../styles'
-import { Header, Nav, LogoContainer, Logo } from '../styles/navbar'
+import { Header, Nav, Logo } from '../styles/navbar'
 import Hamburger from './Hamburger'
 import brand from '../assets/newlogo.png'
 
