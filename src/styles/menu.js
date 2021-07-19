@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  background: #121212;
+  background: #191919;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   color: white;
   flex-direction: column;
   padding: 0% 5% 5%;
   position: fixed;
-  top: 8.5%;
+  top: 5em;
   right: 0%;
   display: ${props => (props.display ? 'block' : 'none')};
   width: 30%;
