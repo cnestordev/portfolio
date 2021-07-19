@@ -1,7 +1,11 @@
 import styled from 'styled-components'
+import bg from '../assets/poly.svg'
 
 export const Section = styled.section`
   background: #121212;
+  background-image: ${`url(${bg})`};
+  background-size: cover;
+  background-repeat: contain;
   display: flex;
   justify-content: center;
   align-items: center;

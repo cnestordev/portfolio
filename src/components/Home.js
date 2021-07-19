@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Section, Intro } from '../styles/home'
+import bg from '../assets/poly.svg'
 
 function Home() {
   return (
