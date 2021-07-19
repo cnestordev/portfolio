@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
   @media (max-width: 650px) {
     flex-direction: column;
@@ -234,7 +234,7 @@ export const About = styled.div`
 `
 
 export const Cta = styled.div`
-  text-align: right;
+  text-align: left;
 
   button {
     border: 1px solid #313131;
