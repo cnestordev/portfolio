@@ -32,7 +32,7 @@ const Menu = ({ visible, toggler }) => {
           onClick={() => {
             toggler()
             window.open(
-              'https://drive.google.com/file/d/1BktG7IOBylrIjMe6IsCkKSVrYXJtTouo/view?usp=sharing'
+              'https://drive.google.com/file/d/1zBw4KQeia-e8ik4x7tMj7W_k0RUi01Au/view?usp=sharing'
             )
           }}
           href="#"
