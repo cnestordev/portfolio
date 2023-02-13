@@ -13,7 +13,7 @@ const Footer = () => {
       <Item
         onClick={() =>
           handleClick(
-            'https://drive.google.com/file/d/1zBw4KQeia-e8ik4x7tMj7W_k0RUi01Au/view?usp=sharing'
+            'https://docs.google.com/document/d/e/2PACX-1vS4gSYB7GyURCc0olwfCV9gnTx5B38OINY-yL3Kd4WAkIbdm0w6t8E5BrqjYOhcJZ3uj_UcqjziUbmr/pub'
           )
         }
       >
@@ -37,10 +37,10 @@ const Footer = () => {
           cnestordev
         </p>
       </Item>
-      <Item onClick={() => handleClick('mailto:nestor@nestordev.com')}>
+      <Item onClick={() => handleClick('mailto:nestorcdev@gmail.com')}>
         <i class="far fa-envelope"></i>
         <p>
-          nestor@<GradientText weight="normal">nestordev.com</GradientText>
+        nestorcdev@<GradientText weight="normal">gmail.com</GradientText>
         </p>
       </Item>
     </Container>

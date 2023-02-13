@@ -61,6 +61,7 @@ export const Header = styled.h2`
 export const Subheader = styled.h4`
   background: #f5e7c5;
   color: #555;
+  cursor: pointer;
   border-radius: 5px;
   font-size: 1.1rem;
   width: max-content;
