@@ -28,7 +28,12 @@ export const Nav = styled.nav`
   }
 
   ul li {
-    margin: 1rem 1.2rem;
+    padding: 1rem 1.2rem;
+  }
+
+  ul li:hover {
+    background: #0f3624;
+    border-radius: 5px;
   }
 
   ul li:last-of-type {
