@@ -18,7 +18,7 @@ function About() {
           About <span className="gradientText">Me</span>
         </Header>
         <Subheader onClick={() =>  navigator.clipboard.writeText('nestorcdev@gmail.com')}>
-          <i class="far fa-envelope"></i> nestor@nestorcdev@gmail.com
+          <i class="far fa-envelope"></i> nestorcdev@gmail.com
         </Subheader>
         <FlexContainer>
           <Left>
