@@ -26,7 +26,7 @@ const Runway = () => {
             <InfoL>
                 <i className="fas fa-info-circle" />
                 <p className="project-description">
-                A web application to manage land inventory, assets, data, and sales history.
+                August 2021 - August 2022
                 </p>
             </InfoL>
             <Video muted width="600" controls>
@@ -38,7 +38,7 @@ const Runway = () => {
         <InfoR>
           <i className="fas fa-info-circle" />
           <p className="project-description">
-            A web application to manage land inventory, assets, data, and sales history.
+            August 2021 - August 2022
           </p>
         </InfoR>
         <Icons>
