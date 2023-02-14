@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import { Container } from '../styles'
 import MainProject from './MainProject'
+import Runway from './Runway'
 import ProjectBox from './ProjectBox'
 
 import { projects } from '../util/projects'
@@ -21,6 +22,10 @@ function Projects() {
 
   return (
     <Section id="projects">
+      <Container>
+        <h3 id="header">Experience</h3>
+        <Runway handleOpen={handleOpen} />
+      </Container>
       <Container>
         <h3 id="header">Projects</h3>
         <MainProject handleOpen={handleOpen} />

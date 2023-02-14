@@ -64,6 +64,11 @@ export const Other = styled.div`
     }
   }
 
+  @media (max-width: 650px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
   @media (max-width: 510px) {
     justify-content: center;
 
