@@ -64,8 +64,8 @@ export const Intro = styled.div`
   }
 
   a:hover {
-    background: #11d0bf;
-    border-color: #11d0bf;
+    background: #0f3624;
+    border-color: #0f3624;
     transition: 200ms;
   }
 
