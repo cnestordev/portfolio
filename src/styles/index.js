@@ -4,6 +4,12 @@ export const Container = styled.div`
   padding: 0 10%;
   position: relative;
 
+  #header {
+    @media (max-width: 650px) {
+      margin-bottom: 7% !important;
+    }
+  }
+
   @media (max-width: 915px) {
     padding: 0 5%;
   }
