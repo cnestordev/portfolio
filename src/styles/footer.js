@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
   background: #121212;
+  padding: 1.2% 0;
   display: flex;
   justify-content: center;
 

@@ -5,7 +5,6 @@ export const Root = styled.div`
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  width: 90%;
   padding: 1%;
 `
 

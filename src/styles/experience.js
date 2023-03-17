@@ -147,7 +147,6 @@ export const InfoL = styled.div`
 `
 
 export const Icons = styled.div`
-  background: #1b1b1b;
   border-radius: 7px;
   position: static;
   display: flex;
@@ -165,9 +164,9 @@ export const Icons = styled.div`
 `
 
 export const Icon = styled.div`
-  width: 20%;
+  width: 15%;
   text-align: center;
-  margin: 5% 0.5%;
+  margin: 0% 0.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,10 +223,9 @@ export const SVGIcon = styled.img`
 `
 
 export const About = styled.div`
-  color: #272727;
-  background: #eeeded;
+  color: #f1f1f1;
   border-radius: 8px;
-  padding: 4%;
+  margin-top: 15px;
   position: relative;
 
   h3 {
@@ -304,10 +302,19 @@ export const Left = styled.div`
 export const Video = styled.video`
   width: 100%;
   border-radius: 5px;
-  margin-top: 2%;
 `
 
-export const HeaderL = styled.h2`
+export const Brand = styled.div`
+  display: flex;
+  align-items: center;
+`
+
+export const VideoContainer = styled.div`
+`
+
+export const HeaderL = styled.h3`
+  color: #fff;
+  font-size: 2rem;
   display: none;
 
   @media (max-width: 650px) {
@@ -316,11 +323,20 @@ export const HeaderL = styled.h2`
   }
 `
 
-export const HeaderR = styled.h2`
-  display: block;
+export const HeaderR = styled.h3`
+  color: #fff;
+  font-size: 1.8rem;
+  display: inline;
+  position: relative;
 
   @media (max-width: 650px) {
     display: none;
     flex-direction: columns;
   }
+`
+
+export const SubHeader = styled.p`
+  color: #f1f1f1;
+  margin-top: 1px;
+  font-size: 0.8rem;
 `

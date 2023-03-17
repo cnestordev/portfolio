@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { Container } from '../styles'
+import { Container, RunwayContainer } from '../styles'
 import MainProject from './MainProject'
 import Runway from './Runway'
 import ProjectBox from './ProjectBox'
@@ -22,10 +22,10 @@ function Projects() {
 
   return (
     <Section id="projects">
-      <Container>
+      <RunwayContainer>
         <h3 id="header">Experience</h3>
         <Runway handleOpen={handleOpen} />
-      </Container>
+      </RunwayContainer>
       <Container>
         <h3 id="header">Projects</h3>
         <MainProject handleOpen={handleOpen} />

@@ -31,6 +31,11 @@ const MainProject = ({ handleOpen }) => {
             world.
           </p>
         </Info>
+        <About>
+          <p>
+          I created this application from the ground up, employing React for the frontend, Node/Express for the backend, and MongoDB/Mongoose for the database.
+          </p>
+        </About>
         <Icons>
           <Icon>
             <JavaScript className="fab fa-js-square"></JavaScript>
@@ -49,13 +54,6 @@ const MainProject = ({ handleOpen }) => {
             <p>MongoDB</p>
           </Icon>
         </Icons>
-        <About>
-          <h3>About</h3>
-          <p>
-            I built this application from scratch using React for my frontend,
-            Node/Express for my backend, and MongoDB/Mongoose for my database.
-          </p>
-        </About>
         <Cta>
           <button
             onClick={() => handleOpen('https://threaddit-app.herokuapp.com/')}

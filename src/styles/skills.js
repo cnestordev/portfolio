@@ -5,14 +5,13 @@ export const Section = styled.section`
   position: relative;
 `
 export const Container = styled.div`
-  padding: 0 5%;
+  padding: 3% 7%;
 
   h3#header {
     color: var(--black);
     font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
-    margin: 2.5rem 0;
     margin-bottom: 3rem;
   }
 
@@ -45,11 +44,11 @@ export const Container = styled.div`
   }
 
   @media (max-width: 585px) {
-    height: 95vh;
+    height: 135vh;
   }
 
   @media (max-width: 445px) {
-    height: 110vh;
+    height: 121vh;
   }
 
   @media (max-width: 385px) {
@@ -87,7 +86,7 @@ export const Left = styled.div`
   }
 
   @media (max-width: 445px) {
-    top: 14%;
+    top: 5%;
     left: 20%;
     width: 60%;
   }
@@ -123,7 +122,7 @@ export const Right = styled.div`
   @media (max-width: 445px) {
     width: 80%;
     right: 10%;
-    top: 27%;
+    top: 19%;
     opacity: 1;
   }
 `
@@ -236,6 +235,7 @@ export const Other = styled.div`
 
 export const Misc = styled.div`
   display: flex;
+  flex-wrap: wrap;
 
   p {
     margin: 2%;

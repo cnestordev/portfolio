@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  padding: 0 10%;
+  padding: 3% 13%;
   position: relative;
 
   #header {
@@ -12,6 +12,23 @@ export const Container = styled.div`
 
   @media (max-width: 915px) {
     padding: 0 5%;
+  }
+`
+
+export const RunwayContainer = styled.div`
+  padding: 3% 13%;
+  position: relative;
+  background: #121212;
+
+  #header {
+    color: #f1f1f1 !important;
+    @media (max-width: 650px) {
+      margin-bottom: 7% !important;
+    }
+  }
+
+  @media (max-width: 915px) {
+    padding: 10% 5%;
   }
 `
 

@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
   position: relative;
-  margin-top: 6%;
   padding-bottom: 12%;
 
   h3#header {
@@ -10,7 +9,7 @@ export const Section = styled.section`
     font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
-    margin: 6% 0 5%;
+    margin: 5% 0 5%;
   }
 
   @media (max-width: 1320px) {

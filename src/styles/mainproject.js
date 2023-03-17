@@ -112,11 +112,10 @@ export const Info = styled.div`
 `
 
 export const Icons = styled.div`
-  background: #1b1b1b;
   border-radius: 7px;
   position: static;
   display: flex;
-  margin: 2% auto;
+  margin: 0% auto;
   justify-content: space-between;
   z-index: -1;
   top: 2%;
@@ -130,9 +129,9 @@ export const Icons = styled.div`
 `
 
 export const Icon = styled.div`
-  width: 20%;
+  width: 15%;
   text-align: center;
-  margin: 5% 0.5%;
+  margin: 0% 0.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -196,11 +195,15 @@ export const Mongo = styled.img`
   width: 58%;
 `
 
+export const RunwayLogo = styled.img`
+  width: 10%;
+  display: inline;
+  margin-right: 0.5rem;
+`
+
 export const About = styled.div`
   color: #272727;
-  background: #eeeded;
   border-radius: 8px;
-  padding: 4%;
   position: relative;
 
   h3 {
@@ -294,7 +297,6 @@ export const ExtIcon = styled.i`
 export const Right = styled.div`
   width: 40%;
   padding-left: 10%;
-  padding-top: 2%;
 
   @media (max-width: 1075px) {
     width: 48%;

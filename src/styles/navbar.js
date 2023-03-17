@@ -18,7 +18,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 80%;
+  width: 75%;
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
   -webkit-user-select: none;
