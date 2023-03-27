@@ -42,7 +42,7 @@ export const Left = styled.div`
 
   @media (max-width: 1320px) {
     h2#title {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
     }
   }
 
@@ -50,13 +50,13 @@ export const Left = styled.div`
     width: 40%;
 
     h2#title {
-      font-size: 3.2rem;
+      font-size: 2.2rem;
     }
   }
 
   @media (max-width: 915px) {
     h2#title {
-      font-size: 2.6rem;
+      font-size: 2rem;
     }
 
     h2#title::after {
@@ -70,6 +70,7 @@ export const Left = styled.div`
 
     h2#title {
       text-align: center;
+      font-size: 1.8rem;
     }
 
     h2#title::after {
