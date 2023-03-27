@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
   }
-`
+`;
 
 export const Right = styled.div`
   width: 40%;
@@ -58,7 +58,7 @@ export const Right = styled.div`
 
   @media (max-width: 915px) {
     h2#title {
-      font-size: 2.6rem;
+      font-size: 2.1rem;
     }
 
     h2#title::after {
@@ -90,7 +90,7 @@ export const Right = styled.div`
       left: 7%;
     }
   }
-`
+`;
 
 export const InfoR = styled.div`
   margin: 3% auto;
@@ -116,8 +116,7 @@ export const InfoR = styled.div`
   @media (max-width: 650px) {
     display: none;
   }
-
-`
+`;
 
 export const InfoL = styled.div`
   margin: 3% auto;
@@ -143,8 +142,7 @@ export const InfoL = styled.div`
   @media (max-width: 650px) {
     display: block;
   }
-
-`
+`;
 
 export const Icons = styled.div`
   border-radius: 7px;
@@ -161,7 +159,7 @@ export const Icons = styled.div`
   @media (max-width: 915px) {
     padding: 1% 2%;
   }
-`
+`;
 
 export const Icon = styled.div`
   width: 15%;
@@ -212,15 +210,15 @@ export const Icon = styled.div`
       font-size: 1.9rem;
     }
   }
-`
+`;
 
 export const FAIcon = styled.i`
   color: #61dafb;
-`
+`;
 
 export const SVGIcon = styled.img`
   width: 58%;
-`
+`;
 
 export const About = styled.div`
   color: #f1f1f1;
@@ -256,7 +254,7 @@ export const About = styled.div`
       font-size: 0.9rem;
     }
   }
-`
+`;
 
 export const Left = styled.div`
   width: 50%;
@@ -297,20 +295,19 @@ export const Left = styled.div`
     width: 90%;
     margin-bottom: 5%;
   }
-`
+`;
 
 export const Video = styled.video`
   width: 100%;
   border-radius: 5px;
-`
+`;
 
 export const Brand = styled.div`
   display: flex;
   align-items: center;
-`
+`;
 
-export const VideoContainer = styled.div`
-`
+export const VideoContainer = styled.div``;
 
 export const HeaderL = styled.h3`
   color: #fff;
@@ -321,7 +318,7 @@ export const HeaderL = styled.h3`
     display: block;
     flex-direction: columns;
   }
-`
+`;
 
 export const HeaderR = styled.h3`
   color: #fff;
@@ -333,10 +330,10 @@ export const HeaderR = styled.h3`
     display: none;
     flex-direction: columns;
   }
-`
+`;
 
 export const SubHeader = styled.p`
   color: #f1f1f1;
   margin-top: 1px;
   font-size: 0.8rem;
-`
+`;

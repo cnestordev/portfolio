@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   border: 1px solid rgb(219, 219, 219);
@@ -37,19 +37,19 @@ export const Container = styled.div`
   }
 
   @media (max-width: 755px) {
-    width: 45%;
+    width: 75%;
     margin-top: 2%;
   }
 
   @media (max-width: 510px) {
-    width: 65%;
+    width: 73%;
   }
 
   @media (max-width: 480px) {
-    width: 80%;
+    width: 86%;
     margin-top: 5%;
   }
-`
+`;
 
 export const Cta = styled.div`
   button {
@@ -72,4 +72,4 @@ export const Cta = styled.div`
     transition: 300ms;
     cursor: pointer;
   }
-`
+`;

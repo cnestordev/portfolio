@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-import { Container } from '../styles'
+import { Container } from "../styles";
 import {
   Section,
   Header,
@@ -8,16 +8,16 @@ import {
   FlexContainer,
   Left,
   Right,
-} from '../styles/about'
+} from "../styles/about";
 
 function About() {
   return (
     <Section id="about">
       <Container>
-        <Header>
-          About <span className="gradientText">Me</span>
-        </Header>
-        <Subheader onClick={() =>  navigator.clipboard.writeText('nestorcdev@gmail.com')}>
+        <Header>About Me</Header>
+        <Subheader
+          onClick={() => navigator.clipboard.writeText("nestorcdev@gmail.com")}
+        >
           <i class="far fa-envelope"></i> nestorcdev@gmail.com
         </Subheader>
         <FlexContainer>
@@ -28,10 +28,10 @@ function About() {
               since I had my first computer, I was always curious to find out
               how it works under the hood. It amazed me that people can create
               something from nothing, and always had an appreciation for it.
-              Being able to be a part of that is what fulfills me. I am a{' '}
+              Being able to be a part of that is what fulfills me. I am a{" "}
               <span className="gradientText">full-stack web developer</span>. I
               have a passion for creating useful and user-friendly applications.
-              Other interests of mine include{' '}
+              Other interests of mine include{" "}
               <span className="gradientText">
                 camping, traveling, and sightseeing.
               </span>
@@ -43,7 +43,7 @@ function About() {
         </FlexContainer>
       </Container>
     </Section>
-  )
+  );
 }
 
-export default About
+export default About;

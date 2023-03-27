@@ -1,9 +1,9 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Section = styled.section`
   background: ghostwhite;
   position: relative;
-`
+`;
 export const Container = styled.div`
   padding: 3% 7%;
 
@@ -39,28 +39,19 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 785px) {
-    height: 55vh;
-  }
-
-  @media (max-width: 585px) {
-    height: 135vh;
-  }
-
-  @media (max-width: 445px) {
-    height: 121vh;
-  }
-
   @media (max-width: 385px) {
     h3#header {
       font-size: 2.3rem;
     }
   }
-`
+`;
 
 export const SkillsFlexContainer = styled.div`
   display: flex;
-`
+  @media (max-width: 700px) {
+    justify-content: center;
+  }
+`;
 
 export const Left = styled.div`
   width: 50%;
@@ -69,41 +60,18 @@ export const Left = styled.div`
     width: 85%;
   }
 
-  @media (max-width: 785px) {
-    position: absolute;
-    top: 29%;
-    left: 5%;
-  }
-
   @media (max-width: 700px) {
-    opacity: 0.7;
+    display: none;
   }
-
-  @media (max-width: 585px) {
-    top: 20%;
-    left: 25%;
-    opacity: 1;
-  }
-
-  @media (max-width: 445px) {
-    top: 5%;
-    left: 20%;
-    width: 60%;
-  }
-`
+`;
 
 export const Right = styled.div`
   width: 50%;
   display: flex;
   flex-wrap: wrap;
 
-  @media (max-width: 785px) {
-    position: absolute;
-    right: 10%;
-  }
-
   @media (max-width: 700px) {
-    width: 60%;
+    width: 100%;
   }
 
   @media (max-width: 585px) {
@@ -125,7 +93,7 @@ export const Right = styled.div`
     top: 19%;
     opacity: 1;
   }
-`
+`;
 
 export const Stack = styled.div`
   border-radius: 8px;
@@ -183,13 +151,13 @@ export const Stack = styled.div`
 
   @media (max-width: 585px) {
     margin: 2% auto;
-    width: 60%;
+    width: 100%;
   }
 
   @media (max-width: 445px) {
-    width: 80%;
+    width: 100%;
   }
-`
+`;
 
 export const Other = styled.div`
   border-radius: 8px;
@@ -228,10 +196,11 @@ export const Other = styled.div`
     }
   }
 
-  @media (max-width: 445px) {
-    width: 80%;
+  @media (max-width: 585px) {
+    width: 100%;
+    flex-direction: column;
   }
-`
+`;
 
 export const Misc = styled.div`
   display: flex;
@@ -248,8 +217,8 @@ export const Misc = styled.div`
   @media (max-width: 445px) {
     flex-direction: column;
   }
-`
+`;
 
 export const SVG = styled.svg`
   position: absolute;
-`
+`;

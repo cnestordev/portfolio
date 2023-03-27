@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Section = styled.section`
   background: #fff7e4;
@@ -39,7 +39,7 @@ export const Section = styled.section`
   @media (max-width: 360px) {
     padding: 10% 0 100%;
   }
-`
+`;
 
 export const Header = styled.h2`
   color: #484848;
@@ -56,7 +56,7 @@ export const Header = styled.h2`
   @media (max-width: 385px) {
     font-size: 2.3rem;
   }
-`
+`;
 
 export const Subheader = styled.h4`
   background: #f5e7c5;
@@ -82,7 +82,7 @@ export const Subheader = styled.h4`
   @media (max-width: 560px) {
     padding: 2%;
   }
-`
+`;
 
 export const FlexContainer = styled.div`
   display: flex;
@@ -92,7 +92,7 @@ export const FlexContainer = styled.div`
     position: relative;
     justify-content: center;
   }
-`
+`;
 
 export const Left = styled.div`
   width: 50%;
@@ -119,7 +119,7 @@ export const Left = styled.div`
     color: #2e2e2e;
     padding-top: 1%;
   }
-`
+`;
 
 export const Right = styled.div`
   width: 45%;
@@ -146,4 +146,4 @@ export const Right = styled.div`
   @media (max-width: 543px) {
     width: 100%;
   }
-`
+`;

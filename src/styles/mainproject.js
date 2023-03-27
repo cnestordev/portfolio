@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
@@ -8,13 +8,13 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
   }
-`
+`;
 
 export const Left = styled.div`
   width: 35%;
 
   h2#title {
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: 700;
     background: linear-gradient(23deg, #00ff95, #0066ff, #ff00ff);
     background-size: 400% 400%;
@@ -88,7 +88,7 @@ export const Left = styled.div`
       left: 7%;
     }
   }
-`
+`;
 
 export const Info = styled.div`
   margin: 3% auto;
@@ -109,7 +109,7 @@ export const Info = styled.div`
       font-size: 0.89rem;
     }
   }
-`
+`;
 
 export const Icons = styled.div`
   border-radius: 7px;
@@ -126,7 +126,7 @@ export const Icons = styled.div`
   @media (max-width: 915px) {
     padding: 1% 2%;
   }
-`
+`;
 
 export const Icon = styled.div`
   width: 15%;
@@ -177,29 +177,29 @@ export const Icon = styled.div`
       font-size: 1.9rem;
     }
   }
-`
+`;
 
 export const JavaScript = styled.i`
   color: #fddf17;
-`
+`;
 
 export const ReactIcon = styled.i`
   color: #61dafb;
-`
+`;
 
 export const Node = styled.img`
   width: 54%;
-`
+`;
 
 export const Mongo = styled.img`
   width: 58%;
-`
+`;
 
 export const RunwayLogo = styled.img`
   width: 10%;
   display: inline;
   margin-right: 0.5rem;
-`
+`;
 
 export const About = styled.div`
   color: #272727;
@@ -234,7 +234,7 @@ export const About = styled.div`
       font-size: 0.9rem;
     }
   }
-`
+`;
 
 export const Cta = styled.div`
   text-align: left;
@@ -281,18 +281,18 @@ export const Cta = styled.div`
       width: 30%;
     }
   }
-`
+`;
 
 export const GitContainer = styled.span`
   display: flex;
   justify-content: space-evenly;
-`
+`;
 
 export const ExtIcon = styled.i`
   margin-left: 2%;
   font-size: 1rem;
   color: rgb(119, 119, 119);
-`
+`;
 
 export const Right = styled.div`
   width: 40%;
@@ -317,4 +317,4 @@ export const Right = styled.div`
     width: 90%;
     margin-top: 5%;
   }
-`
+`;
