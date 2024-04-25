@@ -8,7 +8,7 @@ import brand from '../assets/newlogo.svg'
 function Navbar({ toggler, visible }) {
   const handleClick = () => {
     window.open(
-      'https://docs.google.com/document/d/e/2PACX-1vSKp3o9-CdWEj55FbyQviDwgbtHuPgnxhpvGRKFTgjMHNnzAVPZWFs3XrnUKAm_i78I_6gU8JJtxBhr/pub'
+      'https://drive.google.com/file/d/1SjenGKi2gbPH6NK9UO5ub0aiHCzVaKrz/view?usp=sharing'
     )
   }
 
